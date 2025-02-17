@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "TaskProject.Controllers.TasksController",
+    "Method": "GetAll",
+    "RelativePath": "Tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TaskProject.Models.Domain.Tasks, Tasks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TaskProject.Controllers.TasksController",
+    "Method": "Add",
+    "RelativePath": "Tasks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addTaasks",
+        "Type": "TaskProject.Models.AddTasks",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskProject.Controllers.TasksController",
+    "Method": "Delete",
+    "RelativePath": "Tasks/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskProject.Controllers.TasksController",
+    "Method": "GetByIndex",
+    "RelativePath": "Tasks/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TaskProject.Models.Domain.Tasks",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TaskProject.Controllers.TasksController",
+    "Method": "Update",
+    "RelativePath": "Tasks/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTaask",
+        "Type": "TaskProject.Models.UpdateTasks",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
