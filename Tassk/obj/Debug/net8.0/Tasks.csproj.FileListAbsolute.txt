@@ -166,3 +166,4 @@ C:\Users\Арам\source\repos\Tassk\Tassk\obj\Debug\net8.0\refint\Tasks.dll
 C:\Users\Арам\source\repos\Tassk\Tassk\obj\Debug\net8.0\Tasks.pdb
 C:\Users\Арам\source\repos\Tassk\Tassk\obj\Debug\net8.0\Tasks.genruntimeconfig.cache
 C:\Users\Арам\source\repos\Tassk\Tassk\obj\Debug\net8.0\ref\Tasks.dll
+C:\Users\Арам\source\repos\Tassk\Tassk\obj\Debug\net8.0\Tasks.sourcelink.json
